@@ -12,7 +12,7 @@ module.exports = {
   mode: "development",
   resolve: {
     extensions: [".js", ".jsx"],
-    alis: {
+    alias: {
       "@components": path.resolve(__dirname, "src/components/"),
       "@style": path.resolve(__dirname, "src/styles/"),
     },
